@@ -1,8 +1,8 @@
-Title: Kirby Starterkit
+Title: ABC3D
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Techno Culture Club
 
 ----
 
@@ -10,7 +10,7 @@ Description: This is Kirby's Starterkit.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: atelier,workshop,bibliothèque,impression 3D
 
 ----
 
