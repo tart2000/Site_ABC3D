@@ -12,13 +12,13 @@
     <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $site->url() ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/simple-sidebar.css" rel="stylesheet">
+    <link href="<?php echo $site->url() ?>/assets/css/simple-sidebar.css" rel="stylesheet">
 
     <link href="<?php echo $site->url() ?>/assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="<?php echo $site->url() ?>/assets/css/main.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,8 +37,7 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
-            <div class="row">
-
-              <a href="#menu-toggle" class="" id="menu-toggle"><i class="fa fa-bars fa-2x"></i></a>
+            
+            <a href="#menu-toggle" class="" id="menu-toggle"><i class="fa fa-bars fa-2x"></i></a>
 
 
