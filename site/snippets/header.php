@@ -37,16 +37,20 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
-            <?php foreach($site->languages() as $language): ?>
-                <?php if ($site->language() != $language) : ?>
-                    <li class="lang">
-                        <a href="<?php echo $page->url($language->code()) ?>">
-                            <?php echo html($language->code()) ?>
-                        </a>
-                    </li>
-                <?php endif ?>
-            <?php endforeach ?>
-            
-            <a href="#menu-toggle" class="" id="menu-toggle"><i class="fa fa-bars fa-2x"></i></a>
+            <div class="head">
+                <?php foreach($site->languages() as $language): ?>
+                    <?php if ($site->language() != $language) : ?>
+                        <li class="lang">
+                            <a href="<?php echo $page->url($language->code()) ?>">
+                                <?php echo html($language->code()) ?>
+                            </a>
+                        </li>
+                    <?php endif ?>
+                <?php endforeach ?>
+                
+                <a href="#menu-toggle" class="" id="menu-toggle">
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
+            </div>
 
 
