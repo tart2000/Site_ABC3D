@@ -1,0 +1,23 @@
+
+
+img {
+	max-width: 100%;
+}
+.sidebar-brand {
+	padding: 20px;
+	border-bottom: 1px #4d4d4d solid;
+	margin-bottom: 20px;
+}
+.sidebar-nav>li>a {
+	font-family: "Courier New", Monospace;
+	font-size: 1.3em;
+}
+#menu-toggle {
+	color: #efefef;
+	margin-left: 15px;
+}
+.side-footer {
+	border-top: 1px #4d4d4d solid;
+	padding: 20px;
+	margin-top: 20px;
+}
