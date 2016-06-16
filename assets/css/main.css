@@ -20,3 +20,18 @@ img {
 	padding: 20px;
 	margin-top: 20px;
 }
+.lang {
+	list-style: none;
+	float: right;
+	width: 35px;
+	height: 35px;
+	background-color: #efefef;
+	color: #4d4d4d;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 8px;
+}
+.lang>a {
+	color: #4d4d4d;
+	text-transform: capitalize;
+}
