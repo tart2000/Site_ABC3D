@@ -1,23 +1,37 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <div class="row">
 
-    <h1><?php echo $page->title()->html() ?></h1>
+    <div class="col-sm-9">
+      <h1><?php echo $page->title()->html() ?></h1>
 
-    <ul class="meta cf">
+      <ul class="meta cf">
 
-    </ul>
+      </ul>
 
-    <div class="text">
-      <?php echo $page->text()->kirbytext() ?>
+      <div class="text">
+        <?php echo $page->text()->kirbytext() ?>
 
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-      <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
-      <?php endforeach ?>
+        <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+        <figure>
+          <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
+        </figure>
+        <?php endforeach ?>
+      </div>
     </div>
 
+    <div class="col-sm-3"><!-- méta -->
+      <div class="meta-col">
+        <strong>Public type : </strong>Normal </br>
+        <strong>Durée : </strong>2h </br>
+        <strong>Logiciel(s) : </strong>Tinkercad
+        <hr>
+      </div>
+    </div>
+
+  </div><!-- end row -->
+
+  <div class="row">
     <nav>
       <ul class="pager">
         <?php if($prev = $page->prevVisible()): ?>
@@ -28,7 +42,7 @@
         <?php endif ?>
       </ul>
     </nav>
-
-  </main>
+  </div>
+  
 
 <?php snippet('footer') ?>
