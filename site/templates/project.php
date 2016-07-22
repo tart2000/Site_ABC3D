@@ -2,12 +2,22 @@
 
   <div class="row">
 
-    <div class="col-sm-9">
+    <div class="col-sm-12">
       <h1><?php echo $page->title()->html() ?></h1>
+    </div>
+    
 
-      <ul class="meta cf">
+    <div class="col-sm-3 col-sm-push-9"><!-- méta -->
+      <div class="meta-col">
+        <strong>Public type : </strong>Normal </br>
+        <strong>Durée : </strong>2h </br>
+        <strong>Logiciel(s) : </strong>Tinkercad
+        <hr>
+      </div>
+    </div>
 
-      </ul>
+    <div class="col-sm-9 col-sm-pull-3">
+      
 
       <div class="text">
         <?php echo $page->text()->kirbytext() ?>
@@ -17,15 +27,6 @@
           <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
         </figure>
         <?php endforeach ?>
-      </div>
-    </div>
-
-    <div class="col-sm-3"><!-- méta -->
-      <div class="meta-col">
-        <strong>Public type : </strong>Normal </br>
-        <strong>Durée : </strong>2h </br>
-        <strong>Logiciel(s) : </strong>Tinkercad
-        <hr>
       </div>
     </div>
 
