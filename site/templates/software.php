@@ -21,6 +21,15 @@
         <?php else : ?>
           <strong><?php echo l::get('notopen') ?></strong>
         <?php endif ?>
+        <br>
+        <?php if ($page->open() == 'insatll') : ?>
+          <strong><?php echo l::get('install') ?></strong>
+        <?php else : ?>
+          <strong><?php echo l::get('inbrowser') ?></strong>
+        <?php endif ?>
+        <br>
+
+        <a href="<?php echo $page->link() ?>" target="_blank"><?php echo $page->link() ?></a>
 
         <hr>
          <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>

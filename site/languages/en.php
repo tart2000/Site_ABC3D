@@ -10,5 +10,7 @@ l::set('free', 'Free');
 l::set('notfree', 'Not free');
 l::set('open', 'Open source');
 l::set('notopen', 'Closed source');
+l::set('install', 'Installed software');
+l::set('inbrowser', 'In-browser use');
 
 ?>
