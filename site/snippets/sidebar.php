@@ -23,6 +23,8 @@
     </ul>
     <div class="side-footer">
         <em><?php echo l::get('footer') ?> <a href="http://technoculture.club" target="_blank">Techno Culture Club</a></em>
+        <em><?php echo l::get('avec') ?></em>
+        <img src="<?php echo $site->url() ?>/assets/images/vdm.png">
     </div>
 </div>
 <!-- /#sidebar-wrapper -->

@@ -1,0 +1,21 @@
+Title: TinkerCAD
+
+----
+
+Link: http://tinkercad.com
+
+----
+
+Free: true
+
+----
+
+Open: false
+
+----
+
+Install: false
+
+----
+
+Text: Super pour commencer. TinkerCAD est un logiciel créé par Autodesk qui permet de combiner des formes directement dans le navigateur pour créer des objets. Le téléchargement en STL se fait facilement.

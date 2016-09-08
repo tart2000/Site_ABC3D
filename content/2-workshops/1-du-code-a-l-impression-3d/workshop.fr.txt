@@ -1,0 +1,33 @@
+Title: Du code à l'impression 3D
+
+----
+
+Length: 2h
+
+----
+
+Public: 8-12
+
+----
+
+Software: tinkercad
+
+----
+
+Text: 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lorem velit, mattis eu magna nec, ultrices euismod nisi. Pellentesque ultrices erat nunc, sit amet egestas tellus auctor quis. Donec facilisis vehicula vestibulum. Fusce venenatis varius rhoncus. Nulla porta ante leo, quis tincidunt dolor scelerisque vitae. Maecenas at pulvinar odio, ac convallis dui. Aenean laoreet ornare ex, at mollis ipsum mattis sed. Sed hendrerit ut felis a interdum. Fusce consectetur dolor felis, nec feugiat augue porta ac. Suspendisse ultricies magna elit, et laoreet nunc venenatis in. Aliquam viverra convallis dui eu mattis. In tempus orci mollis, convallis nibh quis, tincidunt eros. Praesent sem eros, auctor vel sollicitudin ut, sodales non eros.
+
+Maecenas scelerisque, augue sit amet facilisis volutpat, est magna facilisis sem, a finibus urna mi sit amet augue. Aliquam scelerisque tincidunt tempus. Cras vestibulum mollis dolor in laoreet. Suspendisse ligula felis, tempus feugiat nunc a, gravida congue ante. Nam eu mollis mauris, ac semper ligula. Etiam lobortis turpis lectus. Pellentesque sit amet justo cursus, rhoncus felis sed, suscipit justo. Phasellus tempus odio at viverra auctor. Morbi nisl ante, blandit in faucibus eu, tempus ut tortor. Ut nec urna ornare, dapibus turpis vitae, cursus lacus. Nam vel laoreet sapien. Suspendisse luctus consequat nulla, quis tempus neque posuere in. Nullam pretium sem et lectus rutrum, vel eleifend risus posuere. Integer quis venenatis orci, eleifend sodales velit.
+
+Duis a tristique ante. Sed ante massa, imperdiet in dapibus ac, efficitur at massa. Proin consectetur mauris eget vulputate suscipit. Integer tristique, magna a tempor bibendum, magna dolor bibendum nisi, a elementum ligula odio vel velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consectetur suscipit metus. Ut velit libero, feugiat id pellentesque non, lobortis nec urna. Phasellus augue magna, auctor ac bibendum vitae, rutrum at purus. Curabitur egestas sed justo quis luctus. Suspendisse sed leo erat.
+
+In scelerisque vehicula elementum. Nam at nulla eleifend, ultricies massa vel, mattis ipsum. Praesent in viverra augue. Aliquam laoreet aliquet sem ac accumsan. Cras tincidunt risus vitae fringilla feugiat. Mauris sagittis turpis ipsum, non vestibulum justo sollicitudin eget. Proin id dui sit amet nibh pretium viverra. Ut in mauris aliquam, dapibus est id, vestibulum lectus.
+
+----
+
+Tags: 
+
+----
+
+Lengt: 2h

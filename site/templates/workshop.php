@@ -9,10 +9,20 @@
 
     <div class="col-sm-3 col-sm-push-9"><!-- méta -->
       <div class="meta-col">
-        <strong>Public type : </strong>Normal </br>
-        <strong>Durée : </strong>2h </br>
-        <strong>Logiciel(s) : </strong>Tinkercad
+        <strong>Public type : </strong><?php echo $page->public() ?></br>
+        <strong>Durée : </strong><?php echo $page->lengt() ?></br>
+        <?php $soft = $page->software() ?>
+        <strong>Logiciel(s) : </strong>
+        <?php foreach ($soft->split() as $s) : ?>
+          <?php $onesoft = $pages->index()->findByURI($s) ?>
+          <a href="<?php echo $onesoft->url() ?>"><?php echo $onesoft->title() ?> </a>
+        <?php endforeach ?>
         <hr>
+        <?php foreach ($page->documents() as $doc) : ?>
+          <a href="<?php echo $doc->url() ?>" download>
+            <?php echo $doc->filename() ?> - (<?php echo $doc->niceSize() ?>) <i class="fa fa-download"></i>
+          </a><br>
+        <?php endforeach ?>
       </div>
     </div>
 

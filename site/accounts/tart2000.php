@@ -7,4 +7,7 @@ password: >
 language: en
 role: admin
 history:
+  - ressources/softwares/sketchup
+  - workshops/du-code-a-l-impression-3d
+  - workshops
   - ressources/liste-de-lecture

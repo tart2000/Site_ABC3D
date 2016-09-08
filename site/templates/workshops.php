@@ -10,7 +10,9 @@
     </div>
 
 
-    <?php snippet('projects') ?>
+    <?php foreach ($page->children() as $workshop): ?>
+          <?php snippet('workshop', array('workshop'=>$workshop)) ?>
+        <?php endforeach ?>
 
   </div>
 

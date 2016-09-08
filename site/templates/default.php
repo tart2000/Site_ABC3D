@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <div class="row">
 
-    <div class="text">
+    <div class="col-sm-12">
       <?php echo $page->text()->kirbytext() ?>
     </div>
 
-  </main>
+  </div>
 
 <?php snippet('footer') ?>
