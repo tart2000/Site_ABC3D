@@ -11,8 +11,8 @@
 
 
     <?php foreach ($page->children() as $workshop): ?>
-          <?php snippet('workshop', array('workshop'=>$workshop)) ?>
-        <?php endforeach ?>
+      <?php snippet('workshop', array('workshop'=>$workshop)) ?>
+    <?php endforeach ?>
 
   </div>
 

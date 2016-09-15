@@ -11,12 +11,7 @@
 
 
     <?php foreach ($page->children() as $soft) : ?>
-    	<div class="col-sm-4">
-    		<a href="<?php echo $soft->url() ?>">
-	    		<div class="backimg" style="background-image:url('<?php echo $soft->images()->first()->url() ?>')"></div>
-	    		<h2><?php echo $soft->title() ?></h2>
-    		</a>
-    	</div>
+      <?php snippet('software', array('soft'=>$soft)) ?>
 	<?php endforeach ?>
 
   </div>

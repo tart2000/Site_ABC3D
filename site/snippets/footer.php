@@ -10,14 +10,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="<?php echo $site->url() ?>/assets/js/bootstrap.min.js"></script>
+    <?php echo js('assets/js/main.js') ?>
 
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 
 </body>
 

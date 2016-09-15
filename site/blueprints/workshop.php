@@ -7,24 +7,39 @@ files:
 fields:
   title:
     label: Title
-    type:  text
+    type: text
+  aims:
+    label: Pedagogic aims
+    type: text
+  postimage:
+    label: Main Image
+    type:  selector
+    mode:  single
+    types:
+      - image
   lengt: 
     label: Length
     type: text
     width: 1/2
+  groupsize:
+    label: Group size
+    type: number
+    width: 1/2
   public:
     label: Public
-    type: text
-    width: 1/2
+    type: checkboxes
+    options: query
+    query:
+      page: publics
   software:
     label: Software
     type: checkboxes
     options: query
     query:
-      page: softwares
+      page: ressources/softwares
   text:
     label: Text
-    type:  textarea
+    type: textarea
   tags:
     label: Tags
-    type:  tags
+    type: tags

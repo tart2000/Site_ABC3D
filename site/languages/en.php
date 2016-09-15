@@ -12,5 +12,10 @@ l::set('open', 'Open source');
 l::set('notopen', 'Closed source');
 l::set('install', 'Installed software');
 l::set('inbrowser', 'In-browser use');
+l::set('length', 'Length');
+l::set('software', 'Software');
+l::set('group', 'Group size');
+l::set('public', 'Public');
+
 
 ?>

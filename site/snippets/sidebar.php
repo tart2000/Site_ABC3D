@@ -8,15 +8,17 @@
     <ul class="sidebar-nav">
         <?php foreach ($site->pages()->visible() as $p) : ?> 
             <li>
-                <a class="<?php e($p->isOpen(),'active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
                 <?php if ($p->hasVisibleChildren()) : ?>
-                    <ul>
+                    <a class="<?php e($p->isOpen(),'active') ?> sursub" href="#"><?php echo $p->title() ?></a>
+                    <ul class="hidden">
                         <?php foreach ($p->children()->visible() as $sub) : ?>
                             <li>
                                 <a class="<?php e($sub->isOpen(),'active2') ?>" href="<?php echo $sub->url() ?>"><?php echo $sub->title() ?></a>
                             </li>
                         <?php endforeach ?>
                     </ul>
+                <?php else : ?>
+                    <a class="<?php e($p->isOpen(),'active') ?> sursub" href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
                 <?php endif ?>
             </li>
         <?php endforeach ?>

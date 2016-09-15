@@ -6,7 +6,7 @@ Length: 2h
 
 ----
 
-Public: 8-12
+Public: 7-12, adult
 
 ----
 
@@ -31,3 +31,15 @@ Tags:
 ----
 
 Lengt: 2h
+
+----
+
+Aims: Un grand bla bla pour décrire à quoi sert cet atelier
+
+----
+
+Postimage: dsc_0149-copy.jpg
+
+----
+
+Groupsize: 23
