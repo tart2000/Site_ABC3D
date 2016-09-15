@@ -9,8 +9,11 @@
       <hr>
     </div>
 
-
-    <?php foreach ($page->children() as $workshop): ?>
+    <?php $workshops = $page->children() ?>
+    <?php if ($pub=param('public')) : ?>
+		<?php $workshops = $workshops->filterBy('public','*=',$pub) ?>
+	<?php endif ?>
+    <?php foreach ($workshops as $workshop): ?>
       <?php snippet('workshop', array('workshop'=>$workshop)) ?>
     <?php endforeach ?>
 

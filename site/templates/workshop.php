@@ -9,8 +9,17 @@
 
     <div class="col-sm-3 col-sm-push-9"><!-- méta -->
       <div class="meta-col">
+
         <?php if($page->public() != '') : ?>
-          <strong><?php echo l::get('public') ?>: </strong><?php echo $page->public() ?><br>
+          <?php $publics = $page->public()->split() ?>
+          <strong><?php echo l::get('public') ?>: </strong>
+          <?php $counter=1 ?>
+          <?php foreach ($publics as $p) : ?>
+            <?php $onepub = $pages->index()->findByURI($p) ?>
+            <a href="<?php echo $site->url().'/workshops/public:'.$onepub->uid() ?>"><?php echo $p ?></a><?php e($counter<count($publics),' - ') ?>
+            <?php $counter++ ?>
+          <?php endforeach ?>
+            <br>
         <?php endif ?>
 
         <?php if($page->lengt() != '') : ?>
@@ -21,9 +30,8 @@
           <strong><?php echo l::get('group') ?>: </strong><?php echo $page->groupsize() ?> <i class="fa fa-users"></i><br>
         <?php endif ?>
 
-        <?php $soft = $page->software() ?>
         <strong><?php echo l::get('software') ?>: </strong>
-        <?php foreach ($soft->split() as $s) : ?>
+        <?php foreach ($page->software()->split() as $s) : ?>
           <?php $onesoft = $pages->index()->findByURI($s) ?>
           <a href="<?php echo $onesoft->url() ?>"><?php echo $onesoft->title() ?> </a>
         <?php endforeach ?>
