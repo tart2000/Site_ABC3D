@@ -9,10 +9,11 @@
       <hr>
     </div>
 
-    <?php $workshops = $page->children() ?>
+    <?php $workshops = $page->children()->visible() ?>
     <?php if ($pub=param('public')) : ?>
-		<?php $workshops = $workshops->filterBy('public','*=',$pub) ?>
-	<?php endif ?>
+  		<?php $workshops = $workshops->filterBy('public','*=',$pub) ?>
+      <em><?php echo l::get('pulbic') ?>: <?php echo $pub?></em>
+  	<?php endif ?>
     <?php foreach ($workshops as $workshop): ?>
       <?php snippet('workshop', array('workshop'=>$workshop)) ?>
     <?php endforeach ?>

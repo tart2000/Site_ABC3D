@@ -6,7 +6,7 @@ Author: Techno Culture Club
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: 3D printing workshops for libraries
 
 ----
 

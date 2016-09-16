@@ -16,6 +16,10 @@ l::set('length', 'Durée ');
 l::set('software', 'Logiciel(s) ');
 l::set('group', 'Taille de groupe ');
 l::set('public', 'Public ');
+l::set('timing', 'Déroulé');
+l::set('equipment', 'Matériel');
+l::set('comments', 'Commentaires');
+
 
 
 ?>

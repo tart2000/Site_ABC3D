@@ -16,6 +16,8 @@ l::set('length', 'Length');
 l::set('software', 'Software');
 l::set('group', 'Group size');
 l::set('public', 'Public');
-
+l::set('timing', 'Timing');
+l::set('equipment', 'Equipment');
+l::set('comments', 'Comments');
 
 ?>

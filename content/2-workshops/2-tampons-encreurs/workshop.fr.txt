@@ -1,0 +1,83 @@
+Title: Tampons encreurs
+
+----
+
+Lengt: 2.5
+
+----
+
+Public: Tous
+
+----
+
+Software: tinkercad
+
+----
+
+Text: 
+
+Apprenez à créer vos propres tampons encreur. Dessiner votre propre tampons et créer le en 3D.
+ 
+**Déroulé**
+
+1. Presentation impression 3D - 15 mins
+2. Survol du processus - 15 mins
+3. Recherche d’image en ligne - 10 mins
+4. Intro à Tinkercad - 15 mins
+5. Utilisation du générateur d’image dans Tinkercad - 15 mins
+6. Modification du modèle dans Tinkercad - 30 mins
+7. Impression - 30–45 mins
+8. Evaluation pendant l'impression
+9. Sabler & coller les impressions sur un bloc de bois, essaie des tampons - 10 mins
+
+**Étapes en detail**
+
+1. Presentation impression 3D - 15 mins
+
+Introduction du concept de l'impression 3D, avec video et présentation.
+
+2. Survol du processus - 15 mins
+
+Donner un aperçu rapide de ce qu'implique l'atelier du jour. Commencant par une image à la création du tampons. Montrer un tampo démo, si possible.
+
+3. Recherche d’images en ligne - 10 mins
+
+Give participants 10 minutes to find an image file (must be a jpg, png or bmp format) and save it to their desktop or downloads folder. They’ll use the image file for the stamp.
+
+Donner aux participants 10 minutes pour trouver une image (le fichier doit être en format .jpg, .png ou .bmp) et l'enregistrer sur le bureau ou dans un dossier. Ils utiliseront cette image pour  créer le tampon.
+
+4. Intro à Tinkercad - 15 min
+
+**Concepts à introduire**
+
+- le plan de travail
+- Zoom in/out (scroll)
+- rotation de la vue (clic droit et glisse)
+- Réinitialiser la vue principale (bouton "home")
+- Vue panoramique (shift + clic droit et glisse)
+- Barre de menu pour les objets & placer les objets sur le plan de travail
+  - Générateur de forme  > image generator
+  - Géométrie
+  - Trou "hole"
+- Selection d'un objet (clic gauche)
+- Selection d'objet multiple (shift + clic gauche)
+- Créer une sélection d'objet  (clic gauche + glisse)
+- Groupe / ungroup des objets multiples
+- Poignées de l'objet & changer les dimensions de l'objet 
+- Voir aussi https://blog.tinkercad.com/keyboard-shortcuts/
+  & http://www.3dvinci.net/PDFs/GettingStartedInTinkercad.pdf
+
+
+5. Utilisation du générateur d’image dans Tinkercad - 15 mins
+6. Modification du modèle dans Tinkercad - 30 mins
+  1. Sélectioner Menu bar > Shape Generators > Tinkercad > “Image Generator by Tinkercad”
+  2. Drag a picture or upload one (must be .png, .jpg, .bmp)
+  3. Use the middle handle to give the object more height
+  4. Add holes (Menu bar > Holes > Box Holes), adjust shape and position, select multiple objects, and Group the objects in order to slice down to 1 mm height.
+  5. Some images will have a border, slice this off too with holes and grouping, as before.
+  6. Place stamp on a 1mm tall rectangle or cylinder to facilitate adhesion onto handle, and group the objects.
+  7. Print the stamp!
+
+----
+
+Tags: 

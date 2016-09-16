@@ -21,7 +21,7 @@ fields:
     type: toggle
     width: 1/2
   install: 
-    label: Soft installed?
+    label: Soft installed? (vs in-browser)
     type: toggle
     width: 1/2 
   text:

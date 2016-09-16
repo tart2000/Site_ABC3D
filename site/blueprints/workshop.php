@@ -20,11 +20,18 @@ fields:
   lengt: 
     label: Length
     type: text
-    width: 1/2
+    width: 1/4
   groupsize:
     label: Group size
     type: number
-    width: 1/2
+    width: 1/4
+  difficulty:
+    label: Difficulty (1-5)
+    type: number
+    min: 1
+    max: 5
+    step: 1
+    width: 1/4
   public:
     label: Public
     type: checkboxes
@@ -37,9 +44,12 @@ fields:
     options: query
     query:
       page: ressources/softwares
+  materiel: 
+    label: Equipment (coma separated)
+    type: text
   text:
     label: Text
     type: textarea
-  tags:
-    label: Tags
-    type: tags
+  deroule: 
+    label: Schedule (déroulé)
+    type: textarea
