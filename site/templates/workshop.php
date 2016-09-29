@@ -83,21 +83,20 @@
             </div>
           <?php endif ?>
         </div>
+      </div> <!-- end colsm -->
 
-      </div>
       <!-- Navigation -->
-      <div class="row">
-        <nav>
-          <ul class="pager">
-            <?php if($prev = $page->prevVisible()): ?>
-              <li class="previous"><a href="<?php echo $prev->url() ?>"><span aria-hidden="true">&larr;</span> <?php echo l::get('previous') ?></a></li>
-            <?php endif ?>
-            <?php if($next = $page->nextVisible()): ?>
-              <li class="next"><a href="<?php echo $next->url() ?>"><?php echo l::get('next') ?> <span aria-hidden="true">&rarr;</span></a></li>
-            <?php endif ?>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <ul class="pager">
+          <?php if($prev = $page->prevVisible()): ?>
+            <li class="previous"><a href="<?php echo $prev->url() ?>"><span aria-hidden="true">&larr;</span> <?php echo l::get('previous') ?></a></li>
+          <?php endif ?>
+          <?php if($next = $page->nextVisible()): ?>
+            <li class="next"><a href="<?php echo $next->url() ?>"><?php echo l::get('next') ?> <span aria-hidden="true">&rarr;</span></a></li>
+          <?php endif ?>
+        </ul>
+      </nav>
+
 
     </div><!-- end column -->
 

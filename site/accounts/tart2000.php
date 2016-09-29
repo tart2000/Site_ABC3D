@@ -7,7 +7,9 @@ password: >
 language: en
 role: admin
 history:
+  - >
+    ressources/liste-de-lecture/short-circuit-curriculum-guide
+  - ressources/liste-de-lecture/l-impression-3d
+  - ressources/liste-de-lecture/makerspaces-top-trailblazing-projects
   - workshops/du-code-a-l-impression-3d
   - publics/adult
-  - publics
-  - ressources/softwares/sketchup
