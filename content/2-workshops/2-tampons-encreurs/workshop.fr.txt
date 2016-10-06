@@ -6,7 +6,7 @@ Lengt: 2.5
 
 ----
 
-Public: Tous
+Public: 7-12
 
 ----
 
@@ -81,3 +81,27 @@ Donner aux participants 10 minutes pour trouver une image (le fichier doit être
 ----
 
 Tags: 
+
+----
+
+Aims: 
+
+----
+
+Postimage: 
+
+----
+
+Groupsize: 
+
+----
+
+Difficulty: 
+
+----
+
+Materiel: 
+
+----
+
+Deroule: 

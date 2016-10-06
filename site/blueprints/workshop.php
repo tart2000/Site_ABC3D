@@ -10,7 +10,7 @@ fields:
     type: text
   aims:
     label: Pedagogic aims
-    type: text
+    type: textarea
   postimage:
     label: Main Image
     type:  selector
@@ -45,8 +45,8 @@ fields:
     query:
       page: ressources/softwares
   materiel: 
-    label: Equipment (coma separated)
-    type: text
+    label: Equipment 
+    type: textarea
   text:
     label: Text
     type: textarea

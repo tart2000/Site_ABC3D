@@ -19,5 +19,7 @@ l::set('public', 'Public');
 l::set('timing', 'Timing');
 l::set('equipment', 'Equipment');
 l::set('comments', 'Comments');
+l::set('workshop', 'Workshop');
+l::set('pedagogic', 'Pedagogic aims');
 
 ?>

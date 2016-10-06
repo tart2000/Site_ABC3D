@@ -19,7 +19,8 @@ l::set('public', 'Public ');
 l::set('timing', 'Déroulé');
 l::set('equipment', 'Matériel');
 l::set('comments', 'Commentaires');
-
+l::set('workshop', 'Atelier');
+l::set('pedagogic', 'Objectifs pédagogiques ');
 
 
 ?>

@@ -2,7 +2,7 @@
 
   <div class="row">
 
-    <div class="col-sm-12">
+    <div class="col-sm-12 smb">
       <h1><?php echo $page->title()->html() ?></h1>
     </div>
     
@@ -18,7 +18,7 @@
           <?php foreach ($publics as $p) : ?>
             <?php $onepub = $pages->index()->findByURI($p) ?>
             <ul class="nav nav-pills nav-stacked">
-              <li role="presentation"><a href="<?php echo $site->url().'/workshops/public:'.$onepub->uid() ?>"><?php echo $p ?></a></li>
+              <li role="presentation"><a href="<?php echo $site->url().'/workshops/public:'.$onepub->uid() ?>"><?php echo $onepub->title() ?></a></li>
             </ul>
           <?php endforeach ?>
         <?php endif ?>
@@ -53,21 +53,41 @@
           <img src="<?php echo $image->url() ?>" class="img-responsive header-image"> 
         <?php endif ?>
 
-        <?php if ($page->aims() != '') : ?>
-          <h4><?php echo $page->aims() ?></h4>
-        <?php endif ?>
+        <div class="spb">
+          <?php if ($page->aims() != '') : ?>
+            <h4><?php echo l::get('pedagogic') ?>: <?php echo $page->aims() ?></h4>
+          <?php endif ?>
+        </div>
 
+        <!-- tabs -->
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#desc" aria-controls="desc" role="tab" data-toggle="tab">Description</a></li>
+          <li role="presentation" class="active">
+            <a href="#desc" aria-controls="desc" role="tab" data-toggle="tab">
+              Description
+            </a>
+          </li>
           <?php if ($page->deroule() != '') : ?>
-            <li role="presentation"><a href="#deroule" aria-controls="deroule" role="tab" data-toggle="tab"><?php echo l::get('timing') ?></a></li>
+            <li role="presentation">
+              <a href="#deroule" aria-controls="deroule" role="tab" data-toggle="tab">
+                <?php echo l::get('timing') ?>
+              </a>
+            </li>
           <?php endif ?>
           <?php if ($page->materiel() != '') : ?>
-            <li role="presentation"><a href="#materiel" aria-controls="materiel" role="tab" data-toggle="tab"><?php echo l::get('equipment') ?></a></li>
+            <li role="presentation">
+              <a href="#materiel" aria-controls="materiel" role="tab" data-toggle="tab">
+                <?php echo l::get('equipment') ?>
+              </a>
+            </li>
           <?php endif ?>
-          <li role="presentation" class="disabled"><a href="#"><?php echo l::get('comments') ?></a></li>
+          <li role="presentation">
+            <a href="#comments" aria-controls="comments" role="tab" data-toggle="tab">
+              <?php echo l::get('comments') ?>
+            </a>
+          </li>
         </ul>
         
+        <!-- page contents -->
         <div class="workshop-text tab-content">
           <div role="tabpanel" class="tab-pane active" id="desc">
             <?php echo $page->text()->kirbytext() ?>
@@ -82,6 +102,10 @@
               <?php echo $page->materiel()->kirbytext() ?>
             </div>
           <?php endif ?>
+          <div role="tabpanel" class="tab-pane" id="comments">
+            <!-- Comments here -->
+            <?php snippet('disqus') ?>
+          </div>
         </div>
       </div> <!-- end colsm -->
 
