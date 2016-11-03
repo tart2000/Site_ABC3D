@@ -21,5 +21,9 @@ l::set('equipment', 'Equipment');
 l::set('comments', 'Comments');
 l::set('workshop', 'Workshop');
 l::set('pedagogic', 'Pedagogic aims');
+l::set('participant', 'Partcipants guide');
+l::set('allworkshops', 'All workshops');
+l::set('abc3d', 'Developed thanks to ABC3D!');
+l::set('all', 'Everyone');
 
 ?>

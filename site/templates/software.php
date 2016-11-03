@@ -31,9 +31,15 @@
 
         <a href="<?php echo $page->link() ?>" target="_blank"><?php echo $page->link() ?></a>
 
-        <hr>
+        <?php if ($page->abc3d() == 'true') : ?>
+          <div class="abc3d-page smt">
+            <img src="<?php echo $site->url() ?>/assets/images/abc3d_star.png">
+            <div class="abc3d-text"><?php l::get('abc3d') ?></div>
+          </div>
+        <?php endif ?>
+
          <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-        <figure>
+        <figure class="smt">
           <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
         </figure>
         <?php endforeach ?>

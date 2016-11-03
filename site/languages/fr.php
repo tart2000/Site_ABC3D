@@ -21,6 +21,9 @@ l::set('equipment', 'Matériel');
 l::set('comments', 'Commentaires');
 l::set('workshop', 'Atelier');
 l::set('pedagogic', 'Objectifs pédagogiques ');
-
+l::set('participant', 'Guide du participant');
+l::set('allworkshops', 'Tous les ateliers');
+l::set('abc3d', 'Développé grâce à ABC3D !');
+l::set('all', 'Tous publics');
 
 ?>

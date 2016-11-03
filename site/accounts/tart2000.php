@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - ressources/softwares
+  - ressources/softwares/sketchup
   - workshops/du-code-a-l-impression-3d
   - workshops/tampons-encreurs
   - publics/12-15
-  - publics/7-12
-  - ressources/liste-de-lecture/short-circuit-curriculum-guide

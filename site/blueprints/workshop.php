@@ -53,3 +53,6 @@ fields:
   deroule: 
     label: Schedule (déroulé)
     type: textarea
+  participant: 
+    label: Guide du participant
+    type: textarea 

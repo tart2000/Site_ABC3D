@@ -42,6 +42,11 @@
           <?php endforeach ?>
         <?php endif ?>
 
+        <hr>
+        <em><?php echo l::get('avec') ?></em>
+        <img src="<?php echo $site->url() ?>/assets/images/vdm.png">
+
+
       </div>
     </div> <!-- end meta col -->
 
@@ -53,12 +58,6 @@
           <img src="<?php echo $image->url() ?>" class="img-responsive header-image"> 
         <?php endif ?>
 
-        <div class="spb">
-          <?php if ($page->aims() != '') : ?>
-            <h4><?php echo l::get('pedagogic') ?>: <?php echo $page->aims() ?></h4>
-          <?php endif ?>
-        </div>
-
         <!-- tabs -->
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active">
@@ -66,6 +65,7 @@
               Description
             </a>
           </li>
+
           <?php if ($page->deroule() != '') : ?>
             <li role="presentation">
               <a href="#deroule" aria-controls="deroule" role="tab" data-toggle="tab">
@@ -73,6 +73,7 @@
               </a>
             </li>
           <?php endif ?>
+
           <?php if ($page->materiel() != '') : ?>
             <li role="presentation">
               <a href="#materiel" aria-controls="materiel" role="tab" data-toggle="tab">
@@ -80,6 +81,15 @@
               </a>
             </li>
           <?php endif ?>
+
+          <?php if ($page->participant() != '') : ?>
+            <li role="presentation">
+              <a href="#participant" aria-controls="participant" role="tab" data-toggle="tab">
+                <?php echo l::get('particpant') ?>
+              </a>
+            </li>
+          <?php endif ?>
+
           <li role="presentation">
             <a href="#comments" aria-controls="comments" role="tab" data-toggle="tab">
               <?php echo l::get('comments') ?>
@@ -90,6 +100,13 @@
         <!-- page contents -->
         <div class="workshop-text tab-content">
           <div role="tabpanel" class="tab-pane active" id="desc">
+
+            <div class="peda">
+              <?php if ($page->aims() != '') : ?>
+                <h4><?php echo l::get('pedagogic') ?>: <?php echo $page->aims() ?></h4>
+              <?php endif ?>
+            </div>
+
             <?php echo $page->text()->kirbytext() ?>
           </div>
           <?php if ($page->deroule() != '') : ?>
@@ -100,6 +117,11 @@
           <?php if ($page->materiel() != '') : ?>
             <div role="tabpanel" class="tab-pane" id="materiel">
               <?php echo $page->materiel()->kirbytext() ?>
+            </div>
+          <?php endif ?>
+          <?php if ($page->participant() != '') : ?>
+            <div role="tabpanel" class="tab-pane" id="participant">
+              <?php echo $page->participant()->kirbytext() ?>
             </div>
           <?php endif ?>
           <div role="tabpanel" class="tab-pane" id="comments">

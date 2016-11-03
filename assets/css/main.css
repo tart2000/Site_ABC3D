@@ -23,6 +23,12 @@ img {
 .bmb {
 	margin-bottom: 75px;
 }
+.smt {
+	margin-top: 15px;
+}
+.mt {
+	margin-top: 50px; 
+}
 .spb {
 	padding-bottom: 15px;
 }
@@ -37,6 +43,10 @@ img {
 }
 .center {
 	text-align: center;
+}
+.right {
+	float: right;
+	text-align: right; 
 }
 #wrapper {
 	height: 100%;
@@ -177,6 +187,24 @@ img {
 	left: 15%;
 	background-color: yellow;
 	padding: 10px;
+}
+
+/* Software */
+.abc3d {
+	position: absolute;
+	z-index: 10;
+	top: -2px;
+	left: -2px;
+}
+.abc3d-page {
+	width: 100%;
+	background-color: #e6e6e6;
+	height: 60px;
+}
+.abc3d-text {
+	margin-left: 75px;
+	position: relative;
+	top: -70px;
 }
 
 /* Project page */

@@ -11,7 +11,6 @@ fields:
   link:
     label: Link
     type: url
-    width: 1/2
   free: 
     label: Free?
     type: toggle
@@ -24,6 +23,10 @@ fields:
     label: Soft installed? (vs in-browser)
     type: toggle
     width: 1/2 
+  abc3d: 
+    label: Développé pendant ABC3D ?
+    type: toggle 
+    width: 1/2
   text:
     label: Text
     type:  textarea

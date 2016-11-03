@@ -1,0 +1,25 @@
+Title: Sketchup
+
+----
+
+Link: http://sketchup.com
+
+----
+
+Free: true
+
+----
+
+Open: false
+
+----
+
+Install: true
+
+----
+
+Text: In scelerisque vehicula elementum. Nam at nulla eleifend, ultricies massa vel, mattis ipsum. Praesent in viverra augue. Aliquam laoreet aliquet sem ac accumsan. Cras tincidunt risus vitae fringilla feugiat. Mauris sagittis turpis ipsum, non vestibulum justo sollicitudin eget. Proin id dui sit amet nibh pretium viverra. Ut in mauris aliquam, dapibus est id, vestibulum lectus.
+
+----
+
+Abc3d: true
